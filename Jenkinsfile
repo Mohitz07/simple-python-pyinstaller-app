@@ -25,7 +25,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacts 'dist/add2vals'
+                    archiveArtifacts 'archiveArtifacts artifacts: 'dist/*.exe'
                 }
             }
         }
